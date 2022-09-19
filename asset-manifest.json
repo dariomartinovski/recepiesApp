@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/recepiesApp/static/css/main.fc5e8d75.css",
+    "main.js": "/recepiesApp/static/js/main.b630521b.js",
+    "static/media/cocktailParty.jpg": "/recepiesApp/static/media/cocktailParty.39224e7b5cdc3bc42af9.jpg",
+    "static/media/facebook.png": "/recepiesApp/static/media/facebook.ac64e0ee09acf86ece74.png",
+    "index.html": "/recepiesApp/index.html",
+    "static/media/wave3.svg": "/recepiesApp/static/media/wave3.e9d28ebc758421610600.svg",
+    "static/media/wave2.svg": "/recepiesApp/static/media/wave2.a9b2972255d7f77ef15d.svg",
+    "static/media/restaurant.svg": "/recepiesApp/static/media/restaurant.e554328ea0b19dd52c7fc7f089862ce5.svg",
+    "static/media/topCurve.svg": "/recepiesApp/static/media/topCurve.7391a8b0538fc5c950b5.svg",
+    "static/media/wave1.svg": "/recepiesApp/static/media/wave1.ea59ab62214b4e75d23d.svg",
+    "static/media/bottomCurve.svg": "/recepiesApp/static/media/bottomCurve.437468056b92427a46ae.svg",
+    "main.fc5e8d75.css.map": "/recepiesApp/static/css/main.fc5e8d75.css.map",
+    "main.b630521b.js.map": "/recepiesApp/static/js/main.b630521b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc5e8d75.css",
+    "static/js/main.b630521b.js"
+  ]
+}
