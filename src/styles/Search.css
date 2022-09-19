@@ -1,0 +1,17 @@
+.inputContainer{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.inputContainer>input , .inputContainer>button, .inputContainer>select{
+    padding: 0.2rem 1rem;
+    border: 0.066rem solid #20232e;
+    background: rgba(220, 220, 220, 1);
+}
+.inputContainer>input{
+    width: 30%;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+.inputContainer>button{
+    border-radius: 0 0.5rem 0.5rem 0;
+} 

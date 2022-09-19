@@ -1,0 +1,26 @@
+.cocktailSummary{
+    margin: 5rem 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+.cocktailSummary img{
+    width: 40%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+.cocktailSummary .textArea{
+    width: 55%;
+}
+.cocktailSummary hr{
+    background-color: black;
+    height: 0.155rem;
+    margin: 1rem 0;
+}
+.cocktailSummary p{
+    text-indent: 2rem;
+}
+.cocktailSummary h4{
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}

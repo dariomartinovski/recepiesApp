@@ -1,0 +1,37 @@
+footer{
+    margin-top: 7rem;
+    width: 100%;
+    color: rgb(80, 80, 80);
+    background-color: #20232e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer>div:first-child{
+    margin-left: 10rem;
+}
+footer>div:first-child>p:first-child{
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+}
+footer>div:first-child>p:last-child{
+    margin: 0.5rem 0;
+}
+footer p{
+    color: rgba(220, 220, 220, 0.8);
+}
+footer img{
+    height: 2.5rem;
+    margin-left: 1.5rem;
+}
+footer>div:last-child{
+    margin-right: 10rem;
+}
+@media only screen and (max-width:560px) {
+    footer>div:first-child{
+        margin-left: 5rem;
+    }
+    footer>div:last-child{
+        margin-right: 5rem;
+    }
+}

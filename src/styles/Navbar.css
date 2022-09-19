@@ -1,0 +1,59 @@
+.navbar{
+    position: sticky;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #20232e;
+    color: rgba(220, 220, 220, 1);
+    overflow: hidden;
+    z-index: 999;
+}
+.navbar #logo{
+    margin-left: 10rem;
+    display: flex;
+    align-items: center;
+}
+.navbar img{
+    height: 2rem;
+    width: 2rem;
+}
+.navbar #logo p{
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    font-family: 'Dancing Script', cursive;
+}
+.navbar>a{
+    text-decoration: none;
+    color: white;
+}
+.navlinks{
+    display: flex;
+}
+.navlinks>a{
+    font-size: 0.9rem;
+    padding: 0.8rem 2rem;
+    background-color: transparent;
+    color: white;
+    border: none;
+    transition: background-color 250ms ease-in-out;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.navlinks:last-child{
+    margin-right: 10rem;
+}
+.navlinks>a:hover{
+    background-color: rgba(220, 220, 220, 1);
+    color: #20232e;
+}
+@media only screen and (max-width:560px) {
+    .navbar>div:first-child{
+        margin-left: 5rem;
+    }
+    .navlinks:last-child{
+        margin-right: 5rem;
+    }
+}

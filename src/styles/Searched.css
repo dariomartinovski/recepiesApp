@@ -1,0 +1,40 @@
+.searchContainer{
+    margin: 5rem 0;
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    gap: 2rem;
+    justify-content: center;
+}
+.searchItem{
+    text-align: center;
+    overflow: hidden;
+    background-color: #20232e;
+    border-radius: 1rem;
+    color: rgba(220, 220, 220, 1);
+}
+.searchItem h4{
+    margin: 0.5rem;
+}
+.searchItem img{
+    border-radius: 1rem;
+    object-fit: cover;
+    width: 100%;
+}
+.resultNotFound{
+    display: grid;
+    place-items: center;
+    height: 60vh;
+    width: 100%;
+    margin-bottom: 5rem;
+    color: #20232e;
+}
+@media only screen and (min-width: 560px){
+    .searchFoodItem:nth-child(9){
+        grid-column: 2/3;
+    }
+}
+@media only screen and (max-width: 560px){
+    .searchContainer{
+        grid-template-columns: repeat(2,30%);
+    }
+}
