@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/recepiesApp/static/css/main.fc5e8d75.css",
-    "main.js": "/recepiesApp/static/js/main.4289798a.js",
+    "main.js": "/recepiesApp/static/js/main.b58019e7.js",
     "static/media/cocktailParty.jpg": "/recepiesApp/static/media/cocktailParty.39224e7b5cdc3bc42af9.jpg",
     "static/media/facebook.png": "/recepiesApp/static/media/facebook.ac64e0ee09acf86ece74.png",
     "index.html": "/recepiesApp/index.html",
@@ -12,10 +12,10 @@
     "static/media/wave1.svg": "/recepiesApp/static/media/wave1.ea59ab62214b4e75d23d.svg",
     "static/media/bottomCurve.svg": "/recepiesApp/static/media/bottomCurve.437468056b92427a46ae.svg",
     "main.fc5e8d75.css.map": "/recepiesApp/static/css/main.fc5e8d75.css.map",
-    "main.4289798a.js.map": "/recepiesApp/static/js/main.4289798a.js.map"
+    "main.b58019e7.js.map": "/recepiesApp/static/js/main.b58019e7.js.map"
   },
   "entrypoints": [
     "static/css/main.fc5e8d75.css",
-    "static/js/main.4289798a.js"
+    "static/js/main.b58019e7.js"
   ]
 }
