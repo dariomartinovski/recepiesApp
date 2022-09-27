@@ -8,7 +8,7 @@ export default function Search({setSearchFilter}) {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    navigate('/search/'+input);
+    navigate('recepiesApp/search/'+input);
     setInput("");
   }
 

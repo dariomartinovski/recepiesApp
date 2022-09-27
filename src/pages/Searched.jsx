@@ -47,7 +47,7 @@ export default function Searched({searchFilter}) {
               {searched?.map(item => {
                 return(
                     <div className='searchFoodItem searchItem' key={item.id}>
-                        <Link to={"/recipe/"+item.id}>
+                        <Link to={"/recepiesApp/recipe/"+item.id}>
                           <img src={item.image} alt={item.title} />
                         </Link>
                         <h4>{item.title}</h4>
@@ -60,7 +60,7 @@ export default function Searched({searchFilter}) {
               {searched?.map(item => {
                 return(
                     <div className='searchItem' key={item.idDrink}>
-                        <Link to={"/cocktail/"+item.idDrink}>
+                        <Link to={"/recepiesApp/cocktail/"+item.idDrink}>
                           <img src={item.strDrinkThumb} alt={item.strDrink} />
                         </Link>
                         <h4>{item.strDrink}</h4>
