@@ -27,7 +27,7 @@ export default function FeaturedCocktails() {
     <div className='featuredCocktails'>
         {featuredCocktails.map((item,i) => {
             return(
-                <Link to={'/cocktail/'+item.idDrink} key={i}>
+                <Link to={'/recepiesApp/cocktail/'+item.idDrink} key={i}>
                   <div className='featuredCocktail'>
                     <img src={item.strDrinkThumb} alt={item.strDrink} />
                   </div>

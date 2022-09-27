@@ -37,7 +37,7 @@ export default function Featured() {
                         {item.diets.map((itm,i)=>{return (<li key={i}>{itm}</li>);})}
                     </ul>
                 </div>
-                <Link to={'/recipe/'+item.id}>
+                <Link to={'/recepiesApp/recipe/'+item.id}>
                     <img src={item.image} alt={item.title} />
                 </Link>
             </div>

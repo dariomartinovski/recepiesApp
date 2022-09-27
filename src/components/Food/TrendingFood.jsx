@@ -28,7 +28,7 @@ export default function TrendingFood() {
           return(
             i<5?(
               <div className={i===4?"trendingItem":"trendingItem"} key={item.id}>
-                <Link to={'/recipe/'+item.id}>
+                <Link to={'/recepiesApp/recipe/'+item.id}>
                   <img src={item.image} alt={item.title} />
                 </Link>
                 <h4>{item.title}, likes: {item.aggregateLikes}</h4>

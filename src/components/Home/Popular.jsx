@@ -34,7 +34,7 @@ export default function Popular() {
         {popular?.map(item => {
           return(
             <SplideSlide key={item.id}>
-              <Link to={"/recipe/"+item.id}>
+              <Link to={"/recepiesApp/recipe/"+item.id}>
                 <div className="popularItem">
                   <div className="gradient"></div>
                   <h4>{item.title}</h4>

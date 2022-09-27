@@ -35,7 +35,7 @@ export default function Recomendation() {
         {recomendation?.map(item => {
           return (
             <SplideSlide key={item.id}>
-              <Link to={"/recipe/"+item.id}>
+              <Link to={"/recepiesApp/recipe/"+item.id}>
                 <div className="recomendationItem">
                     <div className="gradient"></div>
                     <h3>{item.title}</h3>

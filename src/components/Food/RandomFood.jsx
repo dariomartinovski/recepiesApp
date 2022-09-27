@@ -27,7 +27,7 @@ export default function RandomFood() {
           return(
             (i===4 || i===3)?(
               <div className="randomFoodItem" key={item.id}>
-                <Link to={'/recipe/'+item.id}>
+                <Link to={'/recepiesApp/recipe/'+item.id}>
                   <div className="gradient"></div>
                 </Link>
                 <img src={item.image} alt={item.title} />
@@ -52,7 +52,7 @@ export default function RandomFood() {
               </div>
             ):(
               <div className="randomFoodItem" key={item.id}>
-                <Link to={'/recipe/'+item.id}>
+                <Link to={'/recepiesApp/recipe/'+item.id}>
                   <img src={item.image} alt={item.title} />
                 </Link>
                 <h4>{item.title}</h4>

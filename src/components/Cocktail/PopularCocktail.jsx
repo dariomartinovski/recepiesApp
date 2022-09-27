@@ -38,7 +38,7 @@ export default function PopularCocktail() {
           return(
             <SplideSlide key={item.idDrink}>
               <div className="cocktailItem">
-                <Link to={'/cocktail/'+item.idDrink}>
+                <Link to={'/recepiesApp/cocktail/'+item.idDrink}>
                   <div className="gradient"></div>
                 </Link>
                 <h4>{item.strDrink}</h4>
