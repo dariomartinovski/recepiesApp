@@ -10,12 +10,12 @@ import CocktailRecipe from './CocktailRecipe';
 export default function Pages({searchFilter}) {
   return (
     <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/foods' element={<Food/>}/>
-      <Route path='/cocktails' element={<Cocktails />}/>
-      <Route path='/search/:search' element={<Searched searchFilter={searchFilter}/>}/>
-      <Route path='/recipe/:id' element={<FoodRecipe/>}/>
-      <Route path='/cocktail/:id' element={<CocktailRecipe/>}/>
+      <Route path='/recepiesApp' element={<Home/>}/>
+      <Route path='/recepiesApp/foods' element={<Food/>}/>
+      <Route path='/recepiesApp/cocktails' element={<Cocktails />}/>
+      <Route path='/recepiesApp/search/:search' element={<Searched searchFilter={searchFilter}/>}/>
+      <Route path='/recepiesApp/recipe/:id' element={<FoodRecipe/>}/>
+      <Route path='/recepiesApp/cocktail/:id' element={<CocktailRecipe/>}/>
     </Routes>
   )
 }
