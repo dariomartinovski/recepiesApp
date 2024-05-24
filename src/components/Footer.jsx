@@ -5,11 +5,17 @@ import github from '../images/github.png';
 import linkedIn from '../images/linkedIn.png';
 
 export default function Footer() {
+  const [currentYear, setCurrentYear] = useState("");
+
+  useEffect(() => {
+    setCurrentYear(() => new Date().getFullYear());
+  }, []);
+  
   return (
     <footer>
         <div>
             <p>Live, learn, level up, one day at a time</p>
-            <p>Dario Martinovski &copy; 2022</p>
+            <p>Dario Martinovski &copy; {current}</p>
         </div>
         <div>
           <a href="https://github.com/dariomartinovski" target="_blank" rel="noopener noreferrer"><img src={github} alt="Github" /></a>
